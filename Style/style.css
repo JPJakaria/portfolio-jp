@@ -99,14 +99,18 @@ b-content{
 }
 
 /* main section */
-
+main{
+        max-width: 1140px;
+        margin: 0 auto;
+}
 /* about section  */
 
 .about{
           border-radius: 10px;
           background: #FFF8F3;
-          margin-top: 130px;
+          margin: 130px 0;
           padding: 130px;
+
 }
  .ab-h3{
           color: #181818;
@@ -121,4 +125,22 @@ b-content{
           font-size: 18px;
           font-weight: 400;
           line-height: 30px; 
+}
+
+.about-info-container{
+        display: flex;
+        justify-content: space-around;
+
+}
+
+.about-info{
+        text-align: center;
+}
+
+
+#wid-p-tag{
+        padding: 30px 150px;
+        text-align: center;
+        padding-top: 0px;
+
 }
