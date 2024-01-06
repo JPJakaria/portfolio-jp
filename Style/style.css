@@ -20,9 +20,11 @@ nav{
           display: flex;
           justify-content:space-between;
           align-items: center;
-          
-          
+          margin: 0px 200px;
+
 }
+
+/* common thinks close */
 .logo{
           color: var(--Dark-01, #181818);
           font-size: 45px;
@@ -45,4 +47,22 @@ nav a{
           text-decoration: none;
           color: #474747;
 
+}
+/* hero section */
+
+.hero{
+          background-color:#FFF8F3;;
+}
+
+/* banner section */
+
+.banner{
+          padding: 30px 30px 30px 150px;
+          display: flex;
+          align-items: center;
+}
+
+.banner .banner-img{
+          width: 584px;
+          height: 676px;
 }
