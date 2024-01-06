@@ -144,3 +144,19 @@ main{
         padding-top: 0px;
 
 }
+/* skill style  */
+.skill-container{
+        display: flex;
+
+}
+.skill{
+        
+        max-width: 267px;
+        max-height: 377px;
+        margin: 24px;
+        padding: 25px;
+}
+
+.my-edu{
+        
+}
